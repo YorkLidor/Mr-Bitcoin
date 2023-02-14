@@ -1,0 +1,26 @@
+//setup
+@import "setup/variables";
+@import "setup/mixins";
+@import "setup/functions";
+@import "setup/typography";
+
+//basics
+@import "basics/layout";
+@import "basics/base";
+@import "basics/app.scss";
+
+@import 'cmps/app-header.scss';
+@import 'cmps/app-footer.scss';
+@import 'cmps/car-list.scss';
+@import 'cmps/car-preview.scss';
+@import 'cmps/car-details.scss';
+@import 'cmps/car-edit.scss';
+@import 'cmps/car-filter.scss';
+@import 'cmps/user-msg.scss';
+
+//cmps
+@import 'cmps/contact-list.scss';
+//pages
+@import 'pages/contact-index.scss';
+@import 'pages/home-view.scss';
+
