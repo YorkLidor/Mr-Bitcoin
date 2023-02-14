@@ -24,7 +24,7 @@ export default {
         showMsg(msg) {
             console.log(msg)
             this.msg = msg
-            setTimeout(() => (this.msg = null), msg.timeout || 80000)
+            setTimeout(() => (this.msg = null), msg.timeout || 1500)
         },
     },
 }
